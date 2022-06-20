@@ -1,0 +1,25 @@
+{
+  "name": "setup-files",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.4.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.16",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.2",
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  }
+}
